@@ -31,7 +31,7 @@ with s-SPA, you can inject your local micro-frontend into root application direc
 
 ### Steps
 1. Clone any repository in https://github.com/aec-single-spa .
-2. Run `npm install` or `yarn add` on cloned repository.
+2. Run `npm install` or `yarn` on cloned repository.
 3. Run `npm run start:dev` or `yarn start:dev`.
 4. Navigate to https://aec-root-config.herokuapp.com/.
 5. Add `dev-tools:true` to local storage using `localStorage.setItem('devtools', true)` in console, then refresh the page.
