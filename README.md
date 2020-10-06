@@ -30,17 +30,17 @@ with s-SPA, you can inject your local micro-frontend into root application direc
 - It is not recommended to use multiple frameworks within the application, as it leads to performance issues.
 
 ### Steps
-1. Clone any repository
+1. Clone any repository in https://github.com/aec-single-spa .
 2. Run `npm install` or `yarn add` on cloned repository.
 3. Run `npm run start:dev` or `yarn start:dev`.
 4. Navigate to https://aec-root-config.herokuapp.com/.
 5. Add `dev-tools:true` to local storage using `localStorage.setItem('devtools', true)` in console, then refresh the page.
-6. Click on the curly brackets `{..}` at bottom right to open s-SPA window to override the domain of a specific microfrontend to your localhost.  
+6. Click on the curly brackets `{..}` at bottom right to open s-SPA window to override the domain of the cloned module to your localhost.  
 ![s-SPA](https://i.imgur.com/AJfgio4.png)
 ![s-SPA-form](https://i.imgur.com/JXkwH65.png)
 
 ## Pros & Cons
-The following are pros and cons of micro-frontends using iframe approach  
+The following are pros and cons of micro-frontends using single-spa approach  
 ### Pros
 - Separation of code promotes faster development, each feature will be built from scratch with almost no dependency on any other application except **root-config**.
 - Separation of deployments! each module will be deployed and served independently 
@@ -56,7 +56,7 @@ The following are pros and cons of micro-frontends using iframe approach
 
 ## Conclusion
 Micro-Frontends has great potential in solving enterprise web applications issues when it comes to scalability and maintenance. 
-Based on this demo, and my personal analysis, I believe that single-spa is potential approach to micro-frontends.  
+Based on this demo, and my personal analysis, I believe that single-spa is a potential approach to micro-frontends.  
 
 ### Other Approaches
 - [FrintJS](https://frint.js.org/)
