@@ -1,0 +1,11 @@
+{
+    "imports": {
+        "@aec/root-config": "/aec-root-config.js",
+        "@aec/root-theme": "https://aec-root-theme.herokuapp.com/aec-root-theme.js",
+        "@aec/header-app": "https://aec-header-app.herokuapp.com/app.js",
+        "@aec/sidebar-app": "https://aec-sidebar-app.herokuapp.com/app.js",
+        "@aec/table-app": "https://aec-table-app.herokuapp.com/main.js",
+        "@aec/form-app": "https://aec-form-app.herokuapp.com/app.js",
+        "@aec/list-app": "https://aec-list-app.herokuapp.com/app.js"
+    }
+}

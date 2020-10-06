@@ -1,0 +1,11 @@
+{
+    "imports": {
+        "@aec/root-config": "/aec-root-config.js",
+        "@aec/root-theme": "//localhost:9002/aec-root-theme.js",
+        "@aec/header-app": "//localhost:9011/app.js",
+        "@aec/sidebar-app": "//localhost:9012/app.js",
+        "@aec/table-app": "//localhost:9013/app.js",
+        "@aec/form-app": "//localhost:9014/app.js",
+        "@aec/list-app": "//localhost:9015/app.js"
+    }
+}
