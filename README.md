@@ -7,7 +7,7 @@ Micro-frontends are essentially derived from the concept of micro-services.
 
 ## Demo [Single-SPA Approach]
 *This demo does not include Micro-Services*.  
-The solution provided has 5 micro-frontends(vue, angular, react):
+The solution provided has 5 micro-frontends(implement in vue, angular, react):
 
 ![single-spa](https://i.imgur.com/OXrHNF9.png)
 
